@@ -12,9 +12,9 @@ function App() {
       <div className="app-container" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/privacy" element={<PrivacyPolicy />} />
-          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
         <Footer />
       </div>

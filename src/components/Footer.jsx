@@ -13,11 +13,11 @@ const Footer = () => {
             color: '#666'
         }}>
             <div style={{ marginBottom: '1rem' }}>
-                <Link to="/about" style={{ margin: '0 10px', textDecoration: 'none', color: '#666' }}>About Us</Link>
+                <Link to="/about-us" style={{ margin: '0 10px', textDecoration: 'none', color: '#666' }}>About Us</Link>
                 |
-                <Link to="/privacy" style={{ margin: '0 10px', textDecoration: 'none', color: '#666' }}>Privacy Policy</Link>
+                <Link to="/privacy-policy" style={{ margin: '0 10px', textDecoration: 'none', color: '#666' }}>Privacy Policy</Link>
                 |
-                <Link to="/contact" style={{ margin: '0 10px', textDecoration: 'none', color: '#666' }}>Contact Us</Link>
+                <Link to="/contact-us" style={{ margin: '0 10px', textDecoration: 'none', color: '#666' }}>Contact Us</Link>
             </div>
             <p>&copy; 2026 Olympic Spirit Matcher. All rights reserved.</p>
         </footer>
