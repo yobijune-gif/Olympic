@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import InputSection from '../components/InputSection';
 import ResultCard from '../components/ResultCard';
 import LanguageSwitcher from '../components/LanguageSwitcher';
+import ExpertAdvice from '../components/ExpertAdvice';
 import { analyzePersonality } from '../services/gemini';
 
 const Home = () => {
@@ -62,6 +63,8 @@ const Home = () => {
                 {step === 'result' && (
                     <ResultCard result={result} onReset={handleReset} />
                 )}
+
+                <ExpertAdvice lang={lang} />
             </main>
         </div>
     );
